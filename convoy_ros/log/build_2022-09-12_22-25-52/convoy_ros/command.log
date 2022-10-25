@@ -1,0 +1,2 @@
+Invoking command in '/sim_ws/src/convoy_ros/build/convoy_ros': /usr/bin/cmake --build /sim_ws/src/convoy_ros/build/convoy_ros -- -j12 -l12
+Invoked command in '/sim_ws/src/convoy_ros/build/convoy_ros' returned '2': /usr/bin/cmake --build /sim_ws/src/convoy_ros/build/convoy_ros -- -j12 -l12

@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.000165] (convoy_ros) JobQueued: {'identifier': 'convoy_ros', 'dependencies': OrderedDict()}
+[0.000219] (convoy_ros) JobStarted: {'identifier': 'convoy_ros'}
+[0.010406] (convoy_ros) JobProgress: {'identifier': 'convoy_ros', 'progress': 'cmake'}
+[0.011477] (convoy_ros) JobProgress: {'identifier': 'convoy_ros', 'progress': 'build'}
+[0.012280] (convoy_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/sim_ws/src/convoy_ros/build/convoy_ros', '--', '-j12', '-l12'], 'cwd': '/sim_ws/src/convoy_ros/build/convoy_ros', 'env': OrderedDict([('TMUX', '/tmp//tmux-0/default,11,0'), ('HOSTNAME', '4a255a964d40'), ('SHLVL', '2'), ('HOME', '/root'), ('OLDPWD', '/sim_ws/src'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'screen'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.dockerei6_ej92.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/bin/bash'), ('PWD', '/sim_ws/src/convoy_ros/build/convoy_ros'), ('LC_ALL', 'C.UTF-8'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('TMUX_PANE', '%3')]), 'shell': False}
+[0.099354] (-) TimerEvent: {}
+[0.124967] (convoy_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pure_pursuit\x1b[0m\n'}
+[0.141205] (convoy_ros) StdoutLine: {'line': b'[ 72%] Built target wall_follow_node\n'}
+[0.141417] (convoy_ros) StdoutLine: {'line': b'[ 81%] Built target gap_follow_node\n'}
+[0.141525] (convoy_ros) StdoutLine: {'line': b'[ 81%] Built target safety_node\n'}
+[0.147191] (convoy_ros) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o\x1b[0m\n'}
+[0.199530] (-) TimerEvent: {}
+[0.299978] (-) TimerEvent: {}
+[0.400203] (-) TimerEvent: {}
+[0.500491] (-) TimerEvent: {}
+[0.600809] (-) TimerEvent: {}
+[0.701194] (-) TimerEvent: {}
+[0.801479] (-) TimerEvent: {}
+[0.901778] (-) TimerEvent: {}
+[1.002065] (-) TimerEvent: {}
+[1.102383] (-) TimerEvent: {}
+[1.202698] (-) TimerEvent: {}
+[1.302980] (-) TimerEvent: {}
+[1.403303] (-) TimerEvent: {}
+[1.426680] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPurePursuit::PurePursuit()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.426974] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:37:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kinit_waypoint_marker\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.427146] (convoy_ros) StderrLine: {'line': b'   37 |     \x1b[01;31m\x1b[Kinit_waypoint_marker\x1b[m\x1b[K(marker);\n'}
+[1.427315] (convoy_ros) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.431480] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PurePursuit::odom_sub_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.431652] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:54:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_index_finder\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.431796] (convoy_ros) StderrLine: {'line': b'   54 |         goal_index = \x1b[01;31m\x1b[Kgoal_index_finder\x1b[m\x1b[K();\n'}
+[1.431904] (convoy_ros) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.432425] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:55:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdist\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.432590] (convoy_ros) StderrLine: {'line': b'   55 |         goal_dist = \x1b[01;31m\x1b[Kdist\x1b[m\x1b[K(waypoint_x[goal_index], waypoint_y[goal_index], x_curr, y_curr);\n'}
+[1.432678] (convoy_ros) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.432813] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:60:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.432896] (convoy_ros) StderrLine: {'line': b'   60 |         double curvature = get_curvature(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K nav_msgs::msg::Odometry::SharedPtr odom_msg, waypoint_x[goal_index], waypoint_y[goal_index], x_curr, y_curr);\n'}
+[1.432973] (convoy_ros) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.434234] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:60:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_curvature\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcurvature\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.434344] (convoy_ros) StderrLine: {'line': b'   60 |         double curvature = \x1b[01;31m\x1b[Kget_curvature\x1b[m\x1b[K(const nav_msgs::msg::Odometry::SharedPtr odom_msg, waypoint_x[goal_index], waypoint_y[goal_index], x_curr, y_curr);\n'}
+[1.434502] (convoy_ros) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.434654] (convoy_ros) StderrLine: {'line': b'      |                            \x1b[32m\x1b[Kcurvature\x1b[m\x1b[K\n'}
+[1.436580] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:61:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublish_marker\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.436691] (convoy_ros) StderrLine: {'line': b'   61 |         \x1b[01;31m\x1b[Kpublish_marker\x1b[m\x1b[K(marker);\n'}
+[1.436843] (convoy_ros) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.437527] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:62:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublish_drive\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpublisher_drive\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.437741] (convoy_ros) StderrLine: {'line': b'   62 |         \x1b[01;31m\x1b[Kpublish_drive\x1b[m\x1b[K(curvature);\n'}
+[1.438031] (convoy_ros) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.438150] (convoy_ros) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kpublisher_drive\x1b[m\x1b[K\n'}
+[1.438252] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.438354] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:70:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid PurePursuit::init_waypoint_marker(visualization_msgs::msg::Marker)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.438453] (convoy_ros) StderrLine: {'line': b'   70 | void \x1b[01;31m\x1b[KPurePursuit\x1b[m\x1b[K::init_waypoint_marker(const visualization_msgs::msg::Marker marker)\n'}
+[1.438552] (convoy_ros) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.438642] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:70:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid PurePursuit::init_waypoint_marker(visualization_msgs::msg::Marker)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.438721] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PurePursuit\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[1.438806] (convoy_ros) StderrLine: {'line': b'   22 | class \x1b[01;36m\x1b[KPurePursuit\x1b[m\x1b[K : public rclcpp::Node\n'}
+[1.438895] (convoy_ros) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.438991] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:110:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kdouble PurePursuit::dist(double, double, double, double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.439089] (convoy_ros) StderrLine: {'line': b'  110 | double \x1b[01;31m\x1b[KPurePursuit\x1b[m\x1b[K::dist(double x0, double y0, double x1, double y1)\n'}
+[1.439192] (convoy_ros) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.439293] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:110:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kdouble PurePursuit::dist(double, double, double, double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.439395] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PurePursuit\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[1.439500] (convoy_ros) StderrLine: {'line': b'   22 | class \x1b[01;36m\x1b[KPurePursuit\x1b[m\x1b[K : public rclcpp::Node\n'}
+[1.439593] (convoy_ros) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.439686] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:116:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kint PurePursuit::goal_index_finder()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.439786] (convoy_ros) StderrLine: {'line': b'  116 | int \x1b[01;31m\x1b[KPurePursuit\x1b[m\x1b[K::goal_index_finder()\n'}
+[1.439885] (convoy_ros) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.439980] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:116:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kint PurePursuit::goal_index_finder()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.440082] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PurePursuit\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[1.440181] (convoy_ros) StderrLine: {'line': b'   22 | class \x1b[01;36m\x1b[KPurePursuit\x1b[m\x1b[K : public rclcpp::Node\n'}
+[1.440337] (convoy_ros) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.440442] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:144:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kint PurePursuit::closest_waypoint_finder()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.440549] (convoy_ros) StderrLine: {'line': b'  144 | int \x1b[01;31m\x1b[KPurePursuit\x1b[m\x1b[K::closest_waypoint_finder()\n'}
+[1.440656] (convoy_ros) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.440784] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:144:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kint PurePursuit::closest_waypoint_finder()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.440889] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PurePursuit\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[1.440992] (convoy_ros) StderrLine: {'line': b'   22 | class \x1b[01;36m\x1b[KPurePursuit\x1b[m\x1b[K : public rclcpp::Node\n'}
+[1.441091] (convoy_ros) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.441194] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:160:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kdouble PurePursuit::get_yaw(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.441298] (convoy_ros) StderrLine: {'line': b'  160 | double \x1b[01;31m\x1b[KPurePursuit\x1b[m\x1b[K::get_yaw(const nav_msgs::msg::Odometry::SharedPtr msg){\n'}
+[1.441402] (convoy_ros) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.441505] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:160:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kdouble PurePursuit::get_yaw(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.441609] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PurePursuit\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[1.441709] (convoy_ros) StderrLine: {'line': b'   22 | class \x1b[01;36m\x1b[KPurePursuit\x1b[m\x1b[K : public rclcpp::Node\n'}
+[1.441813] (convoy_ros) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.441914] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:166:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kdouble PurePursuit::get_curvature(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.442018] (convoy_ros) StderrLine: {'line': b'  166 | double \x1b[01;31m\x1b[KPurePursuit\x1b[m\x1b[K::get_curvature(const nav_msgs::msg::Odometry::SharedPtr msg)\n'}
+[1.442120] (convoy_ros) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.442225] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:166:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kdouble PurePursuit::get_curvature(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.442329] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PurePursuit\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[1.442433] (convoy_ros) StderrLine: {'line': b'   22 | class \x1b[01;36m\x1b[KPurePursuit\x1b[m\x1b[K : public rclcpp::Node\n'}
+[1.442521] (convoy_ros) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.442607] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:196:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid PurePursuit::publish_marker(visualization_msgs::msg::Marker)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.442695] (convoy_ros) StderrLine: {'line': b'  196 | void \x1b[01;31m\x1b[KPurePursuit\x1b[m\x1b[K::publish_marker(const visualization_msgs::msg::Marker marker)\n'}
+[1.442786] (convoy_ros) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.442883] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:196:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid PurePursuit::publish_marker(visualization_msgs::msg::Marker)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.442986] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PurePursuit\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[1.443102] (convoy_ros) StderrLine: {'line': b'   22 | class \x1b[01;36m\x1b[KPurePursuit\x1b[m\x1b[K : public rclcpp::Node\n'}
+[1.443209] (convoy_ros) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.443313] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:204:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid PurePursuit::publish_drive(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.443426] (convoy_ros) StderrLine: {'line': b'  204 | void \x1b[01;31m\x1b[KPurePursuit\x1b[m\x1b[K::publish_drive(double curvature)\n'}
+[1.443528] (convoy_ros) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.443629] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:204:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid PurePursuit::publish_drive(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.443732] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PurePursuit\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[1.443834] (convoy_ros) StderrLine: {'line': b'   22 | class \x1b[01;36m\x1b[KPurePursuit\x1b[m\x1b[K : public rclcpp::Node\n'}
+[1.443937] (convoy_ros) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.503399] (-) TimerEvent: {}
+[1.603717] (-) TimerEvent: {}
+[1.704053] (-) TimerEvent: {}
+[1.804378] (-) TimerEvent: {}
+[1.904731] (-) TimerEvent: {}
+[2.005064] (-) TimerEvent: {}
+[2.105383] (-) TimerEvent: {}
+[2.205704] (-) TimerEvent: {}
+[2.306036] (-) TimerEvent: {}
+[2.406356] (-) TimerEvent: {}
+[2.506824] (-) TimerEvent: {}
+[2.607133] (-) TimerEvent: {}
+[2.659199] (convoy_ros) StderrLine: {'line': b'make[2]: *** [CMakeFiles/pure_pursuit.dir/build.make:63: CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o] Error 1\n'}
+[2.659576] (convoy_ros) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pure_pursuit.dir/all] Error 2\n'}
+[2.659705] (convoy_ros) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.661415] (convoy_ros) CommandEnded: {'returncode': 2}
+[2.699735] (convoy_ros) JobEnded: {'identifier': 'convoy_ros', 'rc': 2}
+[2.707261] (-) TimerEvent: {}
+[2.710215] (-) EventReactorShutdown: {}

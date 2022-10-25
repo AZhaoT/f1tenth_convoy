@@ -1,0 +1,92 @@
+[0.014s] Invoking command in '/sim_ws/src/convoy_ros/build/convoy_ros': /usr/bin/cmake --build /sim_ws/src/convoy_ros/build/convoy_ros -- -j12 -l12
+[0.125s] [35m[1mScanning dependencies of target pure_pursuit[0m
+[0.141s] [ 72%] Built target wall_follow_node
+[0.141s] [ 81%] Built target gap_follow_node
+[0.141s] [ 81%] Built target safety_node
+[0.147s] [ 90%] [32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o[0m
+[1.427s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:[m[K In constructor ‘[01m[KPurePursuit::PurePursuit()[m[K’:
+[1.427s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:37:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kinit_waypoint_marker[m[K’ was not declared in this scope
+[1.427s]    37 |     [01;31m[Kinit_waypoint_marker[m[K(marker);
+[1.427s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.431s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:[m[K In member function ‘[01m[Kvoid PurePursuit::odom_sub_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.431s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:54:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_index_finder[m[K’ was not declared in this scope
+[1.432s]    54 |         goal_index = [01;31m[Kgoal_index_finder[m[K();
+[1.432s]       |                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.432s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:55:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kdist[m[K’ was not declared in this scope
+[1.432s]    55 |         goal_dist = [01;31m[Kdist[m[K(waypoint_x[goal_index], waypoint_y[goal_index], x_curr, y_curr);
+[1.433s]       |                     [01;31m[K^~~~[m[K
+[1.433s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:60:42:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[1.433s]    60 |         double curvature = get_curvature([01;31m[Kconst[m[K nav_msgs::msg::Odometry::SharedPtr odom_msg, waypoint_x[goal_index], waypoint_y[goal_index], x_curr, y_curr);
+[1.433s]       |                                          [01;31m[K^~~~~[m[K
+[1.434s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:60:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_curvature[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurvature[m[K’?
+[1.434s]    60 |         double curvature = [01;31m[Kget_curvature[m[K(const nav_msgs::msg::Odometry::SharedPtr odom_msg, waypoint_x[goal_index], waypoint_y[goal_index], x_curr, y_curr);
+[1.434s]       |                            [01;31m[K^~~~~~~~~~~~~[m[K
+[1.434s]       |                            [32m[Kcurvature[m[K
+[1.436s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:61:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_marker[m[K’ was not declared in this scope
+[1.437s]    61 |         [01;31m[Kpublish_marker[m[K(marker);
+[1.437s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.437s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:62:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_drive[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_drive[m[K’?
+[1.438s]    62 |         [01;31m[Kpublish_drive[m[K(curvature);
+[1.438s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[1.438s]       |         [32m[Kpublisher_drive[m[K
+[1.438s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:[m[K At global scope:
+[1.438s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:70:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid PurePursuit::init_waypoint_marker(visualization_msgs::msg::Marker)[m[K’
+[1.438s]    70 | void [01;31m[KPurePursuit[m[K::init_waypoint_marker(const visualization_msgs::msg::Marker marker)
+[1.438s]       |      [01;31m[K^~~~~~~~~~~[m[K
+[1.438s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:70:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid PurePursuit::init_waypoint_marker(visualization_msgs::msg::Marker)[m[K’
+[1.439s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PurePursuit[m[K’ defined here
+[1.439s]    22 | class [01;36m[KPurePursuit[m[K : public rclcpp::Node
+[1.439s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[1.439s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:110:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble PurePursuit::dist(double, double, double, double)[m[K’
+[1.439s]   110 | double [01;31m[KPurePursuit[m[K::dist(double x0, double y0, double x1, double y1)
+[1.439s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[1.439s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:110:8:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kdouble PurePursuit::dist(double, double, double, double)[m[K’
+[1.439s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PurePursuit[m[K’ defined here
+[1.439s]    22 | class [01;36m[KPurePursuit[m[K : public rclcpp::Node
+[1.439s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[1.440s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:116:5:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint PurePursuit::goal_index_finder()[m[K’
+[1.440s]   116 | int [01;31m[KPurePursuit[m[K::goal_index_finder()
+[1.440s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.440s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:116:5:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kint PurePursuit::goal_index_finder()[m[K’
+[1.440s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PurePursuit[m[K’ defined here
+[1.440s]    22 | class [01;36m[KPurePursuit[m[K : public rclcpp::Node
+[1.440s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[1.440s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:144:5:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint PurePursuit::closest_waypoint_finder()[m[K’
+[1.440s]   144 | int [01;31m[KPurePursuit[m[K::closest_waypoint_finder()
+[1.441s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.441s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:144:5:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kint PurePursuit::closest_waypoint_finder()[m[K’
+[1.441s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PurePursuit[m[K’ defined here
+[1.441s]    22 | class [01;36m[KPurePursuit[m[K : public rclcpp::Node
+[1.441s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[1.441s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:160:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble PurePursuit::get_yaw(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’
+[1.441s]   160 | double [01;31m[KPurePursuit[m[K::get_yaw(const nav_msgs::msg::Odometry::SharedPtr msg){
+[1.441s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[1.441s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:160:8:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kdouble PurePursuit::get_yaw(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’
+[1.441s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PurePursuit[m[K’ defined here
+[1.442s]    22 | class [01;36m[KPurePursuit[m[K : public rclcpp::Node
+[1.442s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[1.442s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:166:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble PurePursuit::get_curvature(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’
+[1.442s]   166 | double [01;31m[KPurePursuit[m[K::get_curvature(const nav_msgs::msg::Odometry::SharedPtr msg)
+[1.442s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[1.442s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:166:8:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kdouble PurePursuit::get_curvature(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’
+[1.442s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PurePursuit[m[K’ defined here
+[1.442s]    22 | class [01;36m[KPurePursuit[m[K : public rclcpp::Node
+[1.442s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[1.442s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:196:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid PurePursuit::publish_marker(visualization_msgs::msg::Marker)[m[K’
+[1.443s]   196 | void [01;31m[KPurePursuit[m[K::publish_marker(const visualization_msgs::msg::Marker marker)
+[1.443s]       |      [01;31m[K^~~~~~~~~~~[m[K
+[1.443s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:196:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid PurePursuit::publish_marker(visualization_msgs::msg::Marker)[m[K’
+[1.443s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PurePursuit[m[K’ defined here
+[1.443s]    22 | class [01;36m[KPurePursuit[m[K : public rclcpp::Node
+[1.443s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[1.443s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:204:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid PurePursuit::publish_drive(double)[m[K’
+[1.443s]   204 | void [01;31m[KPurePursuit[m[K::publish_drive(double curvature)
+[1.443s]       |      [01;31m[K^~~~~~~~~~~[m[K
+[1.443s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:204:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid PurePursuit::publish_drive(double)[m[K’
+[1.444s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PurePursuit[m[K’ defined here
+[1.444s]    22 | class [01;36m[KPurePursuit[m[K : public rclcpp::Node
+[1.444s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[2.659s] make[2]: *** [CMakeFiles/pure_pursuit.dir/build.make:63: CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o] Error 1
+[2.659s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pure_pursuit.dir/all] Error 2
+[2.660s] make: *** [Makefile:141: all] Error 2
+[2.661s] Invoked command in '/sim_ws/src/convoy_ros/build/convoy_ros' returned '2': /usr/bin/cmake --build /sim_ws/src/convoy_ros/build/convoy_ros -- -j12 -l12

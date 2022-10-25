@@ -1,0 +1,4 @@
+[  9%] [32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o[0m
+[ 90%] Built target safety_node
+[ 90%] Built target wall_follow_node
+[ 90%] Built target gap_follow_node

@@ -1,0 +1,47 @@
+[35m[1mScanning dependencies of target pure_pursuit[0m
+[ 81%] Built target wall_follow_node
+[ 81%] Built target safety_node
+[ 81%] Built target gap_follow_node
+[ 90%] [32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o[0m
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:[m[K In constructor ‘[01m[KPurePursuit::PurePursuit()[m[K’:
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker[m[K’ was not declared in this scope
+   41 |     [01;31m[Kmarker[m[K.header.frame_id = "map";
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:42:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   42 |     marker.header.stamp = [01;31m[Kros[m[K::Time();
+      |                           [01;31m[K^~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:44:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs::Marker[m[K’ has not been declared
+   44 |     marker.type = visualization_msgs::[01;31m[KMarker[m[K::POINTS;
+      |                                       [01;31m[K^~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:45:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs::Marker[m[K’ has not been declared
+   45 |     marker.action = visualization_msgs::[01;31m[KMarker[m[K::ADD;
+      |                                         [01;31m[K^~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:59:20:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::Point[m[K’?
+   59 |     geometry_msgs::[01;31m[KPoint[m[K points;
+      |                    [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/point.hpp:7[m[K,
+                 from [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:13[m[K:
+[01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/point__struct.hpp:149:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Point[m[K’ declared here
+  149 | using [01;36m[KPoint[m[K =
+      |       [01;36m[K^~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:62:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kxes[m[K’ was not declared in this scope
+   62 |         [01;31m[Kxes[m[K.push_back(x);
+      |         [01;31m[K^~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:63:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kyes[m[K’ was not declared in this scope
+   63 |         [01;31m[Kyes[m[K.push_back(y);
+      |         [01;31m[K^~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:64:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kheadings[m[K’ was not declared in this scope; did you mean ‘[01m[Kheading[m[K’?
+   64 |         [01;31m[Kheadings[m[K.push_back(heading);
+      |         [01;31m[K^~~~~~~~[m[K
+      |         [32m[Kheading[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:65:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoints[m[K’ was not declared in this scope; did you mean ‘[01m[Kprintf[m[K’?
+   65 |         [01;31m[Kpoints[m[K.x = x;
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Kprintf[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:[m[K In member function ‘[01m[Kvoid PurePursuit::scan_sub_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:74:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscan_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   74 |   void scan_sub_callback([01;35m[Kconst sensor_msgs::msg::LaserScan::SharedPtr scan_msg[m[K)
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pure_pursuit.dir/build.make:63: CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pure_pursuit.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000421] (convoy_ros) JobQueued: {'identifier': 'convoy_ros', 'dependencies': OrderedDict()}
+[0.000646] (convoy_ros) JobStarted: {'identifier': 'convoy_ros'}
+[0.014904] (convoy_ros) JobProgress: {'identifier': 'convoy_ros', 'progress': 'cmake'}
+[0.015792] (convoy_ros) JobProgress: {'identifier': 'convoy_ros', 'progress': 'build'}
+[0.016537] (convoy_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/sim_ws/src/convoy_ros/build/convoy_ros', '--', '-j12', '-l12'], 'cwd': '/sim_ws/src/convoy_ros/build/convoy_ros', 'env': OrderedDict([('TMUX', '/tmp//tmux-0/default,11,0'), ('HOSTNAME', 'd1f455c6d854'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/sim_ws/src/convoy_ros/convoy_ros'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.dockerocz186cy.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/sim_ws/install/f1tenth_gym_ros:/sim_ws/install/convoy_ros_interfaces:/sim_ws/install/convoy_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/sim_ws/src/convoy_ros/build/convoy_ros'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/sim_ws/install/convoy_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('TMUX_PANE', '%3'), ('CMAKE_PREFIX_PATH', '/sim_ws/install/convoy_ros_interfaces:/sim_ws/install/convoy_ros:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[0.099748] (-) TimerEvent: {}
+[0.116913] (convoy_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pure_pursuit\x1b[0m\n'}
+[0.133266] (convoy_ros) StdoutLine: {'line': b'[ 54%] Built target safety_node\n'}
+[0.133448] (convoy_ros) StdoutLine: {'line': b'[ 54%] Built target wall_follow_node\n'}
+[0.133544] (convoy_ros) StdoutLine: {'line': b'[ 81%] Built target gap_follow_node\n'}
+[0.139580] (convoy_ros) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o\x1b[0m\n'}
+[0.199899] (-) TimerEvent: {}
+[0.300370] (-) TimerEvent: {}
+[0.400670] (-) TimerEvent: {}
+[0.501026] (-) TimerEvent: {}
+[0.601337] (-) TimerEvent: {}
+[0.701592] (-) TimerEvent: {}
+[0.801929] (-) TimerEvent: {}
+[0.902195] (-) TimerEvent: {}
+[1.002492] (-) TimerEvent: {}
+[1.102817] (-) TimerEvent: {}
+[1.203126] (-) TimerEvent: {}
+[1.303407] (-) TimerEvent: {}
+[1.370772] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PurePursuit::odom_sub_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.371231] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:101:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.371353] (convoy_ros) StderrLine: {'line': b'  101 |         for(int i=0; \x1b[01;35m\x1b[Ki < waypoint_x.size()\x1b[m\x1b[K; i++){\n'}
+[1.371461] (convoy_ros) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.371532] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:117:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.371606] (convoy_ros) StderrLine: {'line': b'  117 |           }else if (\x1b[01;35m\x1b[Kgoal_index == waypoint_x.size() - 1\x1b[m\x1b[K){\n'}
+[1.371675] (convoy_ros) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.403524] (-) TimerEvent: {}
+[1.503835] (-) TimerEvent: {}
+[1.604168] (-) TimerEvent: {}
+[1.704496] (-) TimerEvent: {}
+[1.804813] (-) TimerEvent: {}
+[1.905103] (-) TimerEvent: {}
+[2.005466] (-) TimerEvent: {}
+[2.105783] (-) TimerEvent: {}
+[2.206093] (-) TimerEvent: {}
+[2.306404] (-) TimerEvent: {}
+[2.406722] (-) TimerEvent: {}
+[2.507023] (-) TimerEvent: {}
+[2.607338] (-) TimerEvent: {}
+[2.707683] (-) TimerEvent: {}
+[2.808042] (-) TimerEvent: {}
+[2.908378] (-) TimerEvent: {}
+[3.008682] (-) TimerEvent: {}
+[3.109070] (-) TimerEvent: {}
+[3.209382] (-) TimerEvent: {}
+[3.309763] (-) TimerEvent: {}
+[3.410132] (-) TimerEvent: {}
+[3.510400] (-) TimerEvent: {}
+[3.610658] (-) TimerEvent: {}
+[3.710972] (-) TimerEvent: {}
+[3.811309] (-) TimerEvent: {}
+[3.911639] (-) TimerEvent: {}
+[4.011891] (-) TimerEvent: {}
+[4.112207] (-) TimerEvent: {}
+[4.212517] (-) TimerEvent: {}
+[4.312850] (-) TimerEvent: {}
+[4.413138] (-) TimerEvent: {}
+[4.513408] (-) TimerEvent: {}
+[4.613773] (-) TimerEvent: {}
+[4.714121] (-) TimerEvent: {}
+[4.814439] (-) TimerEvent: {}
+[4.904017] (convoy_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pure_pursuit\x1b[0m\n'}
+[4.914630] (-) TimerEvent: {}
+[5.014928] (-) TimerEvent: {}
+[5.115368] (-) TimerEvent: {}
+[5.165887] (convoy_ros) StdoutLine: {'line': b'[100%] Built target pure_pursuit\n'}
+[5.173349] (convoy_ros) CommandEnded: {'returncode': 0}
+[5.195535] (convoy_ros) JobProgress: {'identifier': 'convoy_ros', 'progress': 'install'}
+[5.203572] (convoy_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/sim_ws/src/convoy_ros/build/convoy_ros'], 'cwd': '/sim_ws/src/convoy_ros/build/convoy_ros', 'env': OrderedDict([('TMUX', '/tmp//tmux-0/default,11,0'), ('HOSTNAME', 'd1f455c6d854'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/sim_ws/src/convoy_ros/convoy_ros'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.dockerocz186cy.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/sim_ws/install/f1tenth_gym_ros:/sim_ws/install/convoy_ros_interfaces:/sim_ws/install/convoy_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/sim_ws/src/convoy_ros/build/convoy_ros'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/sim_ws/install/convoy_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('TMUX_PANE', '%3'), ('CMAKE_PREFIX_PATH', '/sim_ws/install/convoy_ros_interfaces:/sim_ws/install/convoy_ros:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[5.210147] (convoy_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.210379] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config\n'}
+[5.210476] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/vesc\n'}
+[5.210611] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/vesc/vesc_tool_files\n'}
+[5.210698] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/vesc/vesc_tool_files/vesc6_motor_0.xml\n'}
+[5.210783] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/vesc/params\n'}
+[5.210871] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/vesc/params/vesc_0.yaml\n'}
+[5.210956] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/real.yaml\n'}
+[5.211041] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/sim.yaml\n'}
+[5.211150] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/teleop\n'}
+[5.211234] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/teleop/ps4_ds4_teleop.yaml\n'}
+[5.211325] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//launch\n'}
+[5.211409] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//launch/veh_bringup.launch.py\n'}
+[5.211494] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//launch/sim_veh_bringup.launch.py\n'}
+[5.211576] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//rviz\n'}
+[5.211669] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//rviz/convoy_rplidar.rviz\n'}
+[5.211755] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/lib/convoy_ros/safety_node\n'}
+[5.211838] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/lib/convoy_ros/wall_follow_node\n'}
+[5.212292] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/lib/convoy_ros/gap_follow_node\n'}
+[5.213191] (convoy_ros) StdoutLine: {'line': b'-- Installing: /sim_ws/src/convoy_ros/install/convoy_ros/lib/convoy_ros/pure_pursuit\n'}
+[5.215224] (convoy_ros) StdoutLine: {'line': b'-- Set runtime path of "/sim_ws/src/convoy_ros/install/convoy_ros/lib/convoy_ros/pure_pursuit" to ""\n'}
+[5.215411] (-) TimerEvent: {}
+[5.215602] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/include\n'}
+[5.215775] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/include/convoy_ros\n'}
+[5.215856] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/include/convoy_ros/gap_follow.hpp\n'}
+[5.215923] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/include/convoy_ros/wall_follow.hpp\n'}
+[5.215987] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/include/convoy_ros/safety.hpp\n'}
+[5.216063] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/environment/pythonpath.sh\n'}
+[5.216123] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/environment/pythonpath.dsv\n'}
+[5.216184] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/lib/python3.8/site-packages/convoy_ros\n'}
+[5.216278] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/lib/python3.8/site-packages/convoy_ros/__init__.py\n'}
+[5.216344] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/lib/python3.8/site-packages/convoy_ros/safety.py\n'}
+[5.238679] (convoy_ros) StdoutLine: {'line': b"Listing '/sim_ws/src/convoy_ros/install/convoy_ros/lib/python3.8/site-packages/convoy_ros'...\n"}
+[5.241373] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/lib/convoy_ros/safety_node.py\n'}
+[5.241726] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/ament_index/resource_index/package_run_dependencies/convoy_ros\n'}
+[5.241886] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/ament_index/resource_index/parent_prefix_path/convoy_ros\n'}
+[5.242221] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/environment/ament_prefix_path.sh\n'}
+[5.242373] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/environment/ament_prefix_path.dsv\n'}
+[5.242517] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/environment/path.sh\n'}
+[5.242627] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/environment/path.dsv\n'}
+[5.242718] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/local_setup.bash\n'}
+[5.242812] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/local_setup.sh\n'}
+[5.242889] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/local_setup.zsh\n'}
+[5.242951] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/local_setup.dsv\n'}
+[5.243013] (convoy_ros) StdoutLine: {'line': b'-- Installing: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/package.dsv\n'}
+[5.243074] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/ament_index/resource_index/packages/convoy_ros\n'}
+[5.243136] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.243199] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.243262] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/cmake/convoy_rosConfig.cmake\n'}
+[5.243325] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/cmake/convoy_rosConfig-version.cmake\n'}
+[5.243387] (convoy_ros) StdoutLine: {'line': b'-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/package.xml\n'}
+[5.244341] (convoy_ros) CommandEnded: {'returncode': 0}
+[5.288788] (convoy_ros) JobEnded: {'identifier': 'convoy_ros', 'rc': 0}
+[5.289811] (-) EventReactorShutdown: {}

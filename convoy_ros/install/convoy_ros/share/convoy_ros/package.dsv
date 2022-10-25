@@ -1,0 +1,11 @@
+source;share/convoy_ros/hook/cmake_prefix_path.ps1
+source;share/convoy_ros/hook/cmake_prefix_path.dsv
+source;share/convoy_ros/hook/cmake_prefix_path.sh
+source;share/convoy_ros/hook/pythonpath.ps1
+source;share/convoy_ros/hook/pythonpath.dsv
+source;share/convoy_ros/hook/pythonpath.sh
+source;share/convoy_ros/local_setup.bash
+source;share/convoy_ros/local_setup.dsv
+source;share/convoy_ros/local_setup.ps1
+source;share/convoy_ros/local_setup.sh
+source;share/convoy_ros/local_setup.zsh

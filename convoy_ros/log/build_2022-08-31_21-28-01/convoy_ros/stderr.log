@@ -1,0 +1,10 @@
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:[m[K In member function ‘[01m[Kvoid PurePursuit::odom_sub_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:101:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  101 |         for(int i=0; [01;35m[Ki < waypoint_x.size()[m[K; i++){
+      |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:117:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  117 |           }else if ([01;35m[Kgoal_index == waypoint_x.size() - 1[m[K){
+      |                     [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:123:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_dist[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  123 |         double [01;35m[Kgoal_dist[m[K = dist(waypoint_x[goal_index], waypoint_y[goal_index], x_curr, y_curr);
+      |                [01;35m[K^~~~~~~~~[m[K

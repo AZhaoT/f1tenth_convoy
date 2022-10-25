@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target pure_pursuit[0m
+[ 81%] Built target gap_follow_node
+[ 81%] Built target safety_node
+[ 81%] Built target wall_follow_node
+[ 90%] [32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o[0m

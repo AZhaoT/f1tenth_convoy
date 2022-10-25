@@ -1,0 +1,57 @@
+[0.012s] Invoking command in '/sim_ws/src/convoy_ros/build/convoy_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/src/convoy_ros/build/convoy_ros -- -j12 -l12
+[0.062s] [ 81%] Built target safety_node
+[0.062s] [ 81%] Built target gap_follow_node
+[0.063s] [ 90%] Built target wall_follow_node
+[0.063s] [100%] Built target pure_pursuit
+[0.071s] Invoked command in '/sim_ws/src/convoy_ros/build/convoy_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/src/convoy_ros/build/convoy_ros -- -j12 -l12
+[0.103s] Invoking command in '/sim_ws/src/convoy_ros/build/convoy_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /sim_ws/src/convoy_ros/build/convoy_ros
+[0.109s] -- Install configuration: ""
+[0.109s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config
+[0.110s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/vesc
+[0.110s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/vesc/vesc_tool_files
+[0.110s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/vesc/vesc_tool_files/vesc6_motor_0.xml
+[0.110s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/vesc/params
+[0.110s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/vesc/params/vesc_0.yaml
+[0.110s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/real.yaml
+[0.110s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/sim.yaml
+[0.110s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/teleop
+[0.110s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/teleop/ps4_ds4_teleop.yaml
+[0.110s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//launch
+[0.110s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//launch/veh_bringup.launch.py
+[0.110s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//launch/sim_veh_bringup.launch.py
+[0.111s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//rviz
+[0.111s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//rviz/convoy_rplidar.rviz
+[0.111s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/lib/convoy_ros/safety_node
+[0.111s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/lib/convoy_ros/wall_follow_node
+[0.111s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/lib/convoy_ros/gap_follow_node
+[0.111s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/lib/convoy_ros/pure_pursuit
+[0.111s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/include
+[0.111s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/include/convoy_ros
+[0.111s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/include/convoy_ros/gap_follow.hpp
+[0.111s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/include/convoy_ros/wall_follow.hpp
+[0.111s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/include/convoy_ros/safety.hpp
+[0.112s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/environment/pythonpath.sh
+[0.112s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/environment/pythonpath.dsv
+[0.112s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/lib/python3.8/site-packages/convoy_ros
+[0.112s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/lib/python3.8/site-packages/convoy_ros/__init__.py
+[0.112s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/lib/python3.8/site-packages/convoy_ros/safety.py
+[0.135s] Listing '/sim_ws/src/convoy_ros/install/convoy_ros/lib/python3.8/site-packages/convoy_ros'...
+[0.137s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/lib/convoy_ros/safety_node.py
+[0.138s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/ament_index/resource_index/package_run_dependencies/convoy_ros
+[0.138s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/ament_index/resource_index/parent_prefix_path/convoy_ros
+[0.138s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/environment/ament_prefix_path.sh
+[0.138s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/environment/ament_prefix_path.dsv
+[0.138s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/environment/path.sh
+[0.138s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/environment/path.dsv
+[0.138s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/local_setup.bash
+[0.139s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/local_setup.sh
+[0.139s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/local_setup.zsh
+[0.139s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/local_setup.dsv
+[0.139s] -- Installing: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/package.dsv
+[0.139s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/ament_index/resource_index/packages/convoy_ros
+[0.139s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.139s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.140s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/cmake/convoy_rosConfig.cmake
+[0.140s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/cmake/convoy_rosConfig-version.cmake
+[0.141s] -- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/package.xml
+[0.142s] Invoked command in '/sim_ws/src/convoy_ros/build/convoy_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /sim_ws/src/convoy_ros/build/convoy_ros

@@ -1,0 +1,19 @@
+[35m[1mScanning dependencies of target pure_pursuit[0m
+[ 54%] Built target wall_follow_node
+[ 54%] Built target gap_follow_node
+[ 81%] Built target safety_node
+[ 90%] [32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o[0m
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:[m[K In member function ‘[01m[Kvoid PurePursuit::odom_sub_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:102:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  102 |         for(int i=0; [01;35m[Ki < waypoint_x.size()[m[K; i++){
+      |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:103:65:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPurePursuit::dist(__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type)[m[K’
+  103 |           if(dist(waypoint_x[i] - odom_msg->pose.pose.position.x[01;31m[K)[m[K, (waypoint_y[i] - odom_msg->pose.pose.position.y) < closest_dist ){
+      |                                                                 [01;31m[K^[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:86:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdouble PurePursuit::dist(double, double)[m[K’
+   86 |     double [01;36m[Kdist[m[K(double x, double y)
+      |            [01;36m[K^~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:86:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+make[2]: *** [CMakeFiles/pure_pursuit.dir/build.make:63: CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pure_pursuit.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

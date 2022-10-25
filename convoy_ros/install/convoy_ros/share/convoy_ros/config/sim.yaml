@@ -1,0 +1,42 @@
+/**:
+  ros__parameters:
+    veh_ns: "ego_racecar"
+    drive_topic: "drive"
+    joy_topic: "joy"
+    odom_topic: "odom"
+    scan_topic: "scan"
+
+safety:
+  ros__parameters:
+    ttc_thresh: 0.5
+    brake_bool_topic: "brake_bool"
+
+wall_follow:
+  ros__parameters:
+    kp: 14.0
+    ki: 0.0
+    kd: 0.09
+    lookahead_dist: 0.5
+    dist_angle_const: .01
+    left_dist_des: 1.0
+    right_dist_des: 1.0
+    low_angle_speed: 1.5
+    low_angle: 10.0
+    med_angle_speed: 1.0
+    med_angle: 20.0
+    high_angle_speed: 0.5
+    max_angle: 100.0
+    theta: 50.0
+
+gap_follow:
+  ros__parameters:
+    car_radius: 0.1
+    scan_threshold_m: 2.0
+    disparity_threshold_m: 1.5
+    cornering_threshold_m: 0.1
+    low_angle_speed: 4.0
+    low_angle: 20.0
+    med_angle_speed: 2.0
+    med_angle: 40.0
+    high_angle_speed: 0.5
+    max_angle: 100.0

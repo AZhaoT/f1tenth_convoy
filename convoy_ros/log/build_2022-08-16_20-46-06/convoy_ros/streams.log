@@ -1,0 +1,14 @@
+[0.011s] Invoking command in '/sim_ws/src/convoy_ros/build/convoy_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/src/convoy_ros/build/convoy_ros -- -j12 -l12
+[0.044s] [35m[1mScanning dependencies of target pure_pursuit[0m
+[0.060s] [ 54%] Built target wall_follow_node
+[0.060s] [ 54%] Built target gap_follow_node
+[0.060s] [ 81%] Built target safety_node
+[0.065s] [ 90%] [32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o[0m
+[0.123s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/Point.hpp: No such file or directory
+[0.123s]    13 | #include [01;31m[K"geometry_msgs/Point.hpp"[m[K
+[0.123s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.123s] compilation terminated.
+[0.125s] make[2]: *** [CMakeFiles/pure_pursuit.dir/build.make:63: CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o] Error 1
+[0.125s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pure_pursuit.dir/all] Error 2
+[0.125s] make: *** [Makefile:141: all] Error 2
+[0.127s] Invoked command in '/sim_ws/src/convoy_ros/build/convoy_ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/src/convoy_ros/build/convoy_ros -- -j12 -l12

@@ -1,0 +1,93 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+-- Found tf2_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_msgs/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /sim_ws/src/convoy_ros/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /sim_ws/src/convoy_ros/build/convoy_ros
+[35m[1mScanning dependencies of target pure_pursuit[0m
+[ 81%] Built target gap_follow_node
+[ 81%] Built target wall_follow_node
+[ 81%] Built target safety_node
+[ 90%] [32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o[0m
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:88:35:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[Kdist[m[K’
+   88 |     double dist(double x, double y[01;31m[K)[m[K
+      |                                   [01;31m[K^[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:[m[K In constructor ‘[01m[KPurePursuit::PurePursuit()[m[K’:
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:46:31:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+   46 |     marker.header.stamp = Node[01;31m[K.[m[Kget_clock().now().to_msg();
+      |                               [01;31m[K^[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:[m[K In member function ‘[01m[Kvoid PurePursuit::odom_sub_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:104:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  104 |         for(int i=0; [01;35m[Ki < waypoint_x.size()[m[K; i++){
+      |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:105:49:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’}
+  105 |           if(dist(waypoint_x[i] - odom_msg->pose[01;31m[K->[m[Kpose->position->x), (waypoint_y[i] - odom_msg->pose->pose->position->y) < closest_dist ){
+      |                                                 [01;31m[K^~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:105:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kdist[m[K’ was not declared in this scope
+  105 |           if([01;31m[Kdist[m[K(waypoint_x[i] - odom_msg->pose->pose->position->x), (waypoint_y[i] - odom_msg->pose->pose->position->y) < closest_dist ){
+      |              [01;31m[K^~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:105:102:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’}
+  105 |         if(dist(waypoint_x[i] - odom_msg->pose->pose->position->x), (waypoint_y[i] - odom_msg->pose[01;31m[K->[m[Kpose->position->y) < closest_dist ){
+      |                                                                                                    [01;31m[K^~[m[K
+
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:117:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kdist[m[K’ was not declared in this scope
+  117 |           if([01;31m[Kdist[m[K((waypoint_x[goal_index] - waypoint_x[curr_index]), (waypoint_y[goal_index] - waypoint_y[curr_index])) < look_ahead_dist){
+      |              [01;31m[K^~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:123:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kdist[m[K’ was not declared in this scope
+  123 |         double goal_dist = [01;31m[Kdist[m[K((waypoint_x[goal_index] - waypoint_x[curr_index]), (waypoint_y[goal_index] - waypoint_y[curr_index]));
+      |                            [01;31m[K^~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:127:50:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’}
+  127 |         double yaw =  atan2(2.0 * (odom_msg->pose[01;31m[K->[m[Kpose->orientation->w * odom_msg->pose->pose->orientation->z + odom_msg->pose->pose->orientation->x * odom_msg->pose->pose->orientation->y) ,
+      |                                                  [01;31m[K^~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:127:89:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’}
+  127 |         double yaw =  atan2(2.0 * (odom_msg->pose->pose->orientation->w * odom_msg->pose[01;31m[K->[m[Kpose->orientation->z + odom_msg->pose->pose->orientation->x * odom_msg->pose->pose->orientation->y) ,
+      |                                                                                         [01;31m[K^~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:127:128:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’}
+  127 | 2.0 * (odom_msg->pose->pose->orientation->w * odom_msg->pose->pose->orientation->z + odom_msg->pose[01;31m[K->[m[Kpose->orientation->x * odom_msg->pose->pose->orientation->y) ,
+      |                                                                                                    [01;31m[K^~[m[K
+
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:127:167:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’}
+  127 | n->w * odom_msg->pose->pose->orientation->z + odom_msg->pose->pose->orientation->x * odom_msg->pose[01;31m[K->[m[Kpose->orientation->y) ,
+      |                                                                                                    [01;31m[K^~[m[K
+
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:128:58:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’}
+  128 |                             - 1.0 + 2.0 * (odom_msg->pose[01;31m[K->[m[Kpose->orientation->w * odom_msg->pose->pose->orientation->w + odom_msg->pose->pose->orientation->x * odom_msg->pose->pose->orientation->x));
+      |                                                          [01;31m[K^~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:128:97:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’}
+  128 |                             - 1.0 + 2.0 * (odom_msg->pose->pose->orientation->w * odom_msg->pose[01;31m[K->[m[Kpose->orientation->w + odom_msg->pose->pose->orientation->x * odom_msg->pose->pose->orientation->x));
+      |                                                                                                 [01;31m[K^~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:128:136:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’}
+  128 | 2.0 * (odom_msg->pose->pose->orientation->w * odom_msg->pose->pose->orientation->w + odom_msg->pose[01;31m[K->[m[Kpose->orientation->x * odom_msg->pose->pose->orientation->x));
+      |                                                                                                    [01;31m[K^~[m[K
+
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:128:175:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >[m[K’}
+  128 | n->w * odom_msg->pose->pose->orientation->w + odom_msg->pose->pose->orientation->x * odom_msg->pose[01;31m[K->[m[Kpose->orientation->x));
+      |                                                                                                    [01;31m[K^~[m[K
+
+make[2]: *** [CMakeFiles/pure_pursuit.dir/build.make:63: CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pure_pursuit.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

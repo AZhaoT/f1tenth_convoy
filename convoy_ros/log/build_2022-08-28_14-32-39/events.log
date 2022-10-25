@@ -1,0 +1,135 @@
+[0.000000] (-) TimerEvent: {}
+[0.000186] (convoy_ros) JobQueued: {'identifier': 'convoy_ros', 'dependencies': OrderedDict()}
+[0.000252] (convoy_ros) JobStarted: {'identifier': 'convoy_ros'}
+[0.009632] (convoy_ros) JobProgress: {'identifier': 'convoy_ros', 'progress': 'cmake'}
+[0.010980] (convoy_ros) JobProgress: {'identifier': 'convoy_ros', 'progress': 'build'}
+[0.011583] (convoy_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/sim_ws/src/convoy_ros/build/convoy_ros', '--', '-j12', '-l12'], 'cwd': '/sim_ws/src/convoy_ros/build/convoy_ros', 'env': OrderedDict([('TMUX', '/tmp//tmux-0/default,11,1'), ('HOSTNAME', 'fc5112bc0d72'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/sim_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker72rpk3g4.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/sim_ws/install/f1tenth_gym_ros:/sim_ws/install/convoy_ros_interfaces:/sim_ws/install/convoy_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/sim_ws/src/convoy_ros/build/convoy_ros'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/sim_ws/install/convoy_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('TMUX_PANE', '%7'), ('CMAKE_PREFIX_PATH', '/sim_ws/install/convoy_ros_interfaces:/sim_ws/install/convoy_ros:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[0.033150] (convoy_ros) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.049721] (convoy_ros) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099081] (-) TimerEvent: {}
+[0.182950] (convoy_ros) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.199175] (-) TimerEvent: {}
+[0.207507] (convoy_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.210056] (convoy_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.299302] (-) TimerEvent: {}
+[0.307949] (convoy_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.346170] (convoy_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.347450] (convoy_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399404] (-) TimerEvent: {}
+[0.459381] (convoy_ros) StdoutLine: {'line': b'-- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[0.459742] (convoy_ros) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)\n'}
+[0.485405] (convoy_ros) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[0.499500] (-) TimerEvent: {}
+[0.574230] (convoy_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.599620] (-) TimerEvent: {}
+[0.629856] (convoy_ros) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[0.689181] (convoy_ros) StdoutLine: {'line': b'-- Found tf2_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_msgs/cmake)\n'}
+[0.699724] (-) TimerEvent: {}
+[0.799990] (-) TimerEvent: {}
+[0.846717] (convoy_ros) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.896131] (convoy_ros) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.900108] (-) TimerEvent: {}
+[0.908745] (convoy_ros) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.909225] (convoy_ros) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /sim_ws/src/convoy_ros/include\n'}
+[0.909365] (convoy_ros) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.921102] (convoy_ros) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.921242] (convoy_ros) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.923066] (convoy_ros) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.926261] (convoy_ros) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.928107] (convoy_ros) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.940279] (convoy_ros) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.940464] (convoy_ros) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.942152] (convoy_ros) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.949851] (convoy_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.979403] (convoy_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[0.980896] (convoy_ros) StdoutLine: {'line': b'-- Build files have been written to: /sim_ws/src/convoy_ros/build/convoy_ros\n'}
+[1.000251] (-) TimerEvent: {}
+[1.000843] (convoy_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pure_pursuit\x1b[0m\n'}
+[1.016268] (convoy_ros) StdoutLine: {'line': b'[ 81%] Built target gap_follow_node\n'}
+[1.016466] (convoy_ros) StdoutLine: {'line': b'[ 81%] Built target wall_follow_node\n'}
+[1.016562] (convoy_ros) StdoutLine: {'line': b'[ 81%] Built target safety_node\n'}
+[1.022446] (convoy_ros) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o\x1b[0m\n'}
+[1.100425] (-) TimerEvent: {}
+[1.200665] (-) TimerEvent: {}
+[1.300881] (-) TimerEvent: {}
+[1.401183] (-) TimerEvent: {}
+[1.501506] (-) TimerEvent: {}
+[1.601775] (-) TimerEvent: {}
+[1.702103] (-) TimerEvent: {}
+[1.802441] (-) TimerEvent: {}
+[1.902787] (-) TimerEvent: {}
+[2.003142] (-) TimerEvent: {}
+[2.061467] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:88:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktwo or more data types in declaration of \xe2\x80\x98\x1b[01m\x1b[Kdist\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.061745] (convoy_ros) StderrLine: {'line': b'   88 |     double dist(double x, double y\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[2.061881] (convoy_ros) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.086830] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPurePursuit::PurePursuit()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.087069] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:46:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K.\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.087171] (convoy_ros) StderrLine: {'line': b'   46 |     marker.header.stamp = Node\x1b[01;31m\x1b[K.\x1b[m\x1b[Kget_clock().now().to_msg();\n'}
+[2.087233] (convoy_ros) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.089197] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PurePursuit::odom_sub_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.089290] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:104:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[2.089359] (convoy_ros) StderrLine: {'line': b'  104 |         for(int i=0; \x1b[01;35m\x1b[Ki < waypoint_x.size()\x1b[m\x1b[K; i++){\n'}
+[2.089430] (convoy_ros) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.089493] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:105:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.089558] (convoy_ros) StderrLine: {'line': b'  105 |           if(dist(waypoint_x[i] - odom_msg->pose\x1b[01;31m\x1b[K->\x1b[m\x1b[Kpose->position->x), (waypoint_y[i] - odom_msg->pose->pose->position->y) < closest_dist ){\n'}
+[2.089618] (convoy_ros) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.090592] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:105:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdist\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.090688] (convoy_ros) StderrLine: {'line': b'  105 |           if(\x1b[01;31m\x1b[Kdist\x1b[m\x1b[K(waypoint_x[i] - odom_msg->pose->pose->position->x), (waypoint_y[i] - odom_msg->pose->pose->position->y) < closest_dist ){\n'}
+[2.090757] (convoy_ros) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.090820] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:105:102:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.090891] (convoy_ros) StderrLine: {'line': b'  105 |         if(dist(waypoint_x[i] - odom_msg->pose->pose->position->x), (waypoint_y[i] - odom_msg->pose\x1b[01;31m\x1b[K->\x1b[m\x1b[Kpose->position->y) < closest_dist ){\n'}
+[2.090953] (convoy_ros) StderrLine: {'line': b'      |                                                                                                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.091013] (convoy_ros) StderrLine: {'line': b'\n'}
+[2.091482] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:117:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdist\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.091568] (convoy_ros) StderrLine: {'line': b'  117 |           if(\x1b[01;31m\x1b[Kdist\x1b[m\x1b[K((waypoint_x[goal_index] - waypoint_x[curr_index]), (waypoint_y[goal_index] - waypoint_y[curr_index])) < look_ahead_dist){\n'}
+[2.091634] (convoy_ros) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.092133] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:123:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdist\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.092467] (convoy_ros) StderrLine: {'line': b'  123 |         double goal_dist = \x1b[01;31m\x1b[Kdist\x1b[m\x1b[K((waypoint_x[goal_index] - waypoint_x[curr_index]), (waypoint_y[goal_index] - waypoint_y[curr_index]));\n'}
+[2.092539] (convoy_ros) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.092601] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:127:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.092668] (convoy_ros) StderrLine: {'line': b'  127 |         double yaw =  atan2(2.0 * (odom_msg->pose\x1b[01;31m\x1b[K->\x1b[m\x1b[Kpose->orientation->w * odom_msg->pose->pose->orientation->z + odom_msg->pose->pose->orientation->x * odom_msg->pose->pose->orientation->y) ,\n'}
+[2.092737] (convoy_ros) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.092797] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:127:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.092859] (convoy_ros) StderrLine: {'line': b'  127 |         double yaw =  atan2(2.0 * (odom_msg->pose->pose->orientation->w * odom_msg->pose\x1b[01;31m\x1b[K->\x1b[m\x1b[Kpose->orientation->z + odom_msg->pose->pose->orientation->x * odom_msg->pose->pose->orientation->y) ,\n'}
+[2.092919] (convoy_ros) StderrLine: {'line': b'      |                                                                                         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.092977] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:127:128:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.093042] (convoy_ros) StderrLine: {'line': b'  127 | 2.0 * (odom_msg->pose->pose->orientation->w * odom_msg->pose->pose->orientation->z + odom_msg->pose\x1b[01;31m\x1b[K->\x1b[m\x1b[Kpose->orientation->x * odom_msg->pose->pose->orientation->y) ,\n'}
+[2.093105] (convoy_ros) StderrLine: {'line': b'      |                                                                                                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.093164] (convoy_ros) StderrLine: {'line': b'\n'}
+[2.093223] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:127:167:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.093287] (convoy_ros) StderrLine: {'line': b'  127 | n->w * odom_msg->pose->pose->orientation->z + odom_msg->pose->pose->orientation->x * odom_msg->pose\x1b[01;31m\x1b[K->\x1b[m\x1b[Kpose->orientation->y) ,\n'}
+[2.093350] (convoy_ros) StderrLine: {'line': b'      |                                                                                                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.093409] (convoy_ros) StderrLine: {'line': b'\n'}
+[2.093467] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:128:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.093529] (convoy_ros) StderrLine: {'line': b'  128 |                             - 1.0 + 2.0 * (odom_msg->pose\x1b[01;31m\x1b[K->\x1b[m\x1b[Kpose->orientation->w * odom_msg->pose->pose->orientation->w + odom_msg->pose->pose->orientation->x * odom_msg->pose->pose->orientation->x));\n'}
+[2.093588] (convoy_ros) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.093646] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:128:97:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.093706] (convoy_ros) StderrLine: {'line': b'  128 |                             - 1.0 + 2.0 * (odom_msg->pose->pose->orientation->w * odom_msg->pose\x1b[01;31m\x1b[K->\x1b[m\x1b[Kpose->orientation->w + odom_msg->pose->pose->orientation->x * odom_msg->pose->pose->orientation->x));\n'}
+[2.093764] (convoy_ros) StderrLine: {'line': b'      |                                                                                                 \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.093822] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:128:136:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.093883] (convoy_ros) StderrLine: {'line': b'  128 | 2.0 * (odom_msg->pose->pose->orientation->w * odom_msg->pose->pose->orientation->w + odom_msg->pose\x1b[01;31m\x1b[K->\x1b[m\x1b[Kpose->orientation->x * odom_msg->pose->pose->orientation->x));\n'}
+[2.093940] (convoy_ros) StderrLine: {'line': b'      |                                                                                                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.094001] (convoy_ros) StderrLine: {'line': b'\n'}
+[2.094059] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:128:175:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::Odometry_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.094123] (convoy_ros) StderrLine: {'line': b'  128 | n->w * odom_msg->pose->pose->orientation->w + odom_msg->pose->pose->orientation->x * odom_msg->pose\x1b[01;31m\x1b[K->\x1b[m\x1b[Kpose->orientation->x));\n'}
+[2.094181] (convoy_ros) StderrLine: {'line': b'      |                                                                                                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.094239] (convoy_ros) StderrLine: {'line': b'\n'}
+[2.103241] (-) TimerEvent: {}
+[2.203498] (-) TimerEvent: {}
+[2.303772] (-) TimerEvent: {}
+[2.404096] (-) TimerEvent: {}
+[2.504428] (-) TimerEvent: {}
+[2.604771] (-) TimerEvent: {}
+[2.705077] (-) TimerEvent: {}
+[2.805405] (-) TimerEvent: {}
+[2.905737] (-) TimerEvent: {}
+[3.006043] (-) TimerEvent: {}
+[3.106371] (-) TimerEvent: {}
+[3.206673] (-) TimerEvent: {}
+[3.306964] (-) TimerEvent: {}
+[3.330998] (convoy_ros) StderrLine: {'line': b'make[2]: *** [CMakeFiles/pure_pursuit.dir/build.make:63: CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o] Error 1\n'}
+[3.331481] (convoy_ros) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pure_pursuit.dir/all] Error 2\n'}
+[3.331638] (convoy_ros) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.333165] (convoy_ros) CommandEnded: {'returncode': 2}
+[3.368831] (convoy_ros) JobEnded: {'identifier': 'convoy_ros', 'rc': 2}
+[3.379320] (-) EventReactorShutdown: {}

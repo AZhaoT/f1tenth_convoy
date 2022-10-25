@@ -1,0 +1,25 @@
+[0.012s] Invoking command in '/sim_ws/src/convoy_ros/build/convoy_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/src/convoy_ros/build/convoy_ros -- -j12 -l12
+[0.033s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.049s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.183s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.208s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.211s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.311s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.350s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.351s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.466s] -- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+[0.467s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[0.493s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.585s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.643s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[0.721s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[0.721s]   ament_target_dependencies() the first argument must be a valid target name
+[0.722s] Call Stack (most recent call first):
+[0.722s]   CMakeLists.txt:82 (ament_target_dependencies)
+[0.722s] 
+[0.722s] 
+[0.722s] -- Configuring incomplete, errors occurred!
+[0.723s] See also "/sim_ws/src/convoy_ros/build/convoy_ros/CMakeFiles/CMakeOutput.log".
+[0.723s] See also "/sim_ws/src/convoy_ros/build/convoy_ros/CMakeFiles/CMakeError.log".
+[0.727s] make: *** [Makefile:444: cmake_check_build_system] Error 1
+[0.728s] Invoked command in '/sim_ws/src/convoy_ros/build/convoy_ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/src/convoy_ros/build/convoy_ros -- -j12 -l12

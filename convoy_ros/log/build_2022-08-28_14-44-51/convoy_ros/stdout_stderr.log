@@ -1,0 +1,61 @@
+[35m[1mScanning dependencies of target pure_pursuit[0m
+[ 81%] Built target safety_node
+[ 81%] Built target gap_follow_node
+[ 81%] Built target wall_follow_node
+[ 90%] [32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o[0m
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:[m[K In member function ‘[01m[Kvoid PurePursuit::odom_sub_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:102:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  102 |         for(int i=0; [01;35m[Ki < waypoint_x.size()[m[K; i++){
+      |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable pure_pursuit[0m
+[100%] Built target pure_pursuit
+-- Install configuration: ""
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/vesc
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/vesc/vesc_tool_files
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/vesc/vesc_tool_files/vesc6_motor_0.xml
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/vesc/params
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/vesc/params/vesc_0.yaml
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/real.yaml
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/sim.yaml
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/teleop
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//config/teleop/ps4_ds4_teleop.yaml
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//launch
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//launch/veh_bringup.launch.py
+-- Installing: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//launch/sim_veh_bringup.launch.py
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//rviz
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros//rviz/convoy_rplidar.rviz
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/lib/convoy_ros/safety_node
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/lib/convoy_ros/wall_follow_node
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/lib/convoy_ros/gap_follow_node
+-- Installing: /sim_ws/src/convoy_ros/install/convoy_ros/lib/convoy_ros/pure_pursuit
+-- Set runtime path of "/sim_ws/src/convoy_ros/install/convoy_ros/lib/convoy_ros/pure_pursuit" to ""
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/include
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/include/convoy_ros
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/include/convoy_ros/gap_follow.hpp
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/include/convoy_ros/wall_follow.hpp
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/include/convoy_ros/safety.hpp
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/environment/pythonpath.sh
+-- Installing: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/environment/pythonpath.dsv
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/lib/python3.8/site-packages/convoy_ros
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/lib/python3.8/site-packages/convoy_ros/__init__.py
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/lib/python3.8/site-packages/convoy_ros/safety.py
+Listing '/sim_ws/src/convoy_ros/install/convoy_ros/lib/python3.8/site-packages/convoy_ros'...
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/lib/convoy_ros/safety_node.py
+-- Installing: /sim_ws/src/convoy_ros/install/convoy_ros/share/ament_index/resource_index/package_run_dependencies/convoy_ros
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/ament_index/resource_index/parent_prefix_path/convoy_ros
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/environment/ament_prefix_path.sh
+-- Installing: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/environment/ament_prefix_path.dsv
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/environment/path.sh
+-- Installing: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/environment/path.dsv
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/local_setup.bash
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/local_setup.sh
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/local_setup.zsh
+-- Installing: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/local_setup.dsv
+-- Installing: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/package.dsv
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/ament_index/resource_index/packages/convoy_ros
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/cmake/convoy_rosConfig.cmake
+-- Up-to-date: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/cmake/convoy_rosConfig-version.cmake
+-- Installing: /sim_ws/src/convoy_ros/install/convoy_ros/share/convoy_ros/package.xml

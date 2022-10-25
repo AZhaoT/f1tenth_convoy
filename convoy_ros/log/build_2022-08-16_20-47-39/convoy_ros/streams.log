@@ -1,0 +1,70 @@
+[0.011s] Invoking command in '/sim_ws/src/convoy_ros/build/convoy_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/src/convoy_ros/build/convoy_ros -- -j12 -l12
+[0.043s] [35m[1mScanning dependencies of target pure_pursuit[0m
+[0.059s] [ 81%] Built target gap_follow_node
+[0.059s] [ 81%] Built target wall_follow_node
+[0.060s] [ 81%] Built target safety_node
+[0.068s] [ 90%] [32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o[0m
+[1.178s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:[m[K In constructor ‘[01m[KPurePursuit::PurePursuit()[m[K’:
+[1.178s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:35:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization[m[K’ was not declared in this scope; did you mean ‘[01m[Kvisualization_msgs[m[K’?
+[1.178s]    35 |     publisher_rviz = this->create_publisher<[01;31m[Kvisualization[m[K::msg::Marker>("rviz_markers", 10);
+[1.178s]       |                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.178s]       |                                             [32m[Kvisualization_msgs[m[K
+[1.178s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:35:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.179s]    35 |     publisher_rviz = this->[01;31m[Kcreate_publisher<visualization::msg::Marker>[m[K("rviz_markers", 10);
+[1.179s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.179s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:35:91:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPurePursuit::create_publisher<<expression error> >(const char [13], int)[m[K’
+[1.179s]    35 |     publisher_rviz = this->create_publisher<visualization::msg::Marker>("rviz_markers", 10[01;31m[K)[m[K;
+[1.179s]       |                                                                                           [01;31m[K^[m[K
+[1.179s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.179s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.179s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.179s]                  from [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:15[m[K:
+[1.179s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[1.179s]   184 |   [01;36m[Kcreate_publisher[m[K(
+[1.180s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.180s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.180s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:35:91:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.180s]    35 |     publisher_rviz = this->create_publisher<visualization::msg::Marker>("rviz_markers", 10[01;31m[K)[m[K;
+[1.180s]       |                                                                                           [01;31m[K^[m[K
+[1.180s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker[m[K’ was not declared in this scope
+[1.180s]    41 |     [01;31m[Kmarker[m[K.header.frame_id = "map";
+[1.181s]       |     [01;31m[K^~~~~~[m[K
+[1.181s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:42:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[1.181s]    42 |     marker.header.stamp = [01;31m[Kros[m[K::Time();
+[1.181s]       |                           [01;31m[K^~~[m[K
+[1.181s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:44:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs::Marker[m[K’ has not been declared
+[1.181s]    44 |     marker.type = visualization_msgs::[01;31m[KMarker[m[K::POINTS;
+[1.181s]       |                                       [01;31m[K^~~~~~[m[K
+[1.181s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:45:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs::Marker[m[K’ has not been declared
+[1.181s]    45 |     marker.action = visualization_msgs::[01;31m[KMarker[m[K::ADD;
+[1.181s]       |                                         [01;31m[K^~~~~~[m[K
+[1.181s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:59:20:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::Point[m[K’?
+[1.181s]    59 |     geometry_msgs::[01;31m[KPoint[m[K points;
+[1.182s]       |                    [01;31m[K^~~~~[m[K
+[1.182s] In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/point.hpp:7[m[K,
+[1.182s]                  from [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:13[m[K:
+[1.182s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/point__struct.hpp:149:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Point[m[K’ declared here
+[1.182s]   149 | using [01;36m[KPoint[m[K =
+[1.182s]       |       [01;36m[K^~~~~[m[K
+[1.182s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:62:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kxes[m[K’ was not declared in this scope
+[1.182s]    62 |         [01;31m[Kxes[m[K.push_back(x);
+[1.182s]       |         [01;31m[K^~~[m[K
+[1.183s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:63:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kyes[m[K’ was not declared in this scope
+[1.183s]    63 |         [01;31m[Kyes[m[K.push_back(y);
+[1.183s]       |         [01;31m[K^~~[m[K
+[1.184s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:64:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kheadings[m[K’ was not declared in this scope; did you mean ‘[01m[Kheading[m[K’?
+[1.184s]    64 |         [01;31m[Kheadings[m[K.push_back(heading);
+[1.184s]       |         [01;31m[K^~~~~~~~[m[K
+[1.184s]       |         [32m[Kheading[m[K
+[1.184s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:65:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoints[m[K’ was not declared in this scope; did you mean ‘[01m[Kprintf[m[K’?
+[1.184s]    65 |         [01;31m[Kpoints[m[K.x = x;
+[1.185s]       |         [01;31m[K^~~~~~[m[K
+[1.185s]       |         [32m[Kprintf[m[K
+[1.191s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:[m[K In member function ‘[01m[Kvoid PurePursuit::scan_sub_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.191s] [01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:74:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscan_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.191s]    74 |   void scan_sub_callback([01;35m[Kconst sensor_msgs::msg::LaserScan::SharedPtr scan_msg[m[K)
+[1.192s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.327s] make[2]: *** [CMakeFiles/pure_pursuit.dir/build.make:63: CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o] Error 1
+[2.327s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pure_pursuit.dir/all] Error 2
+[2.328s] make: *** [Makefile:141: all] Error 2
+[2.329s] Invoked command in '/sim_ws/src/convoy_ros/build/convoy_ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /sim_ws/src/convoy_ros/build/convoy_ros -- -j12 -l12

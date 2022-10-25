@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000453] (convoy_ros) JobQueued: {'identifier': 'convoy_ros', 'dependencies': OrderedDict()}
+[0.000523] (convoy_ros) JobStarted: {'identifier': 'convoy_ros'}
+[0.009341] (convoy_ros) JobProgress: {'identifier': 'convoy_ros', 'progress': 'cmake'}
+[0.009867] (convoy_ros) JobProgress: {'identifier': 'convoy_ros', 'progress': 'build'}
+[0.010497] (convoy_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/sim_ws/src/convoy_ros/build/convoy_ros', '--', '-j12', '-l12'], 'cwd': '/sim_ws/src/convoy_ros/build/convoy_ros', 'env': OrderedDict([('TMUX', '/tmp//tmux-0/default,11,1'), ('HOSTNAME', 'fc5112bc0d72'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/sim_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker72rpk3g4.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/sim_ws/install/f1tenth_gym_ros:/sim_ws/install/convoy_ros_interfaces:/sim_ws/install/convoy_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/sim_ws/src/convoy_ros/build/convoy_ros'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/sim_ws/install/convoy_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('TMUX_PANE', '%7'), ('CMAKE_PREFIX_PATH', '/sim_ws/install/convoy_ros_interfaces:/sim_ws/install/convoy_ros:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[0.043691] (convoy_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pure_pursuit\x1b[0m\n'}
+[0.059542] (convoy_ros) StdoutLine: {'line': b'[ 54%] Built target wall_follow_node\n'}
+[0.059745] (convoy_ros) StdoutLine: {'line': b'[ 54%] Built target gap_follow_node\n'}
+[0.059924] (convoy_ros) StdoutLine: {'line': b'[ 81%] Built target safety_node\n'}
+[0.065145] (convoy_ros) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o\x1b[0m\n'}
+[0.098657] (-) TimerEvent: {}
+[0.199022] (-) TimerEvent: {}
+[0.299317] (-) TimerEvent: {}
+[0.399695] (-) TimerEvent: {}
+[0.500036] (-) TimerEvent: {}
+[0.600410] (-) TimerEvent: {}
+[0.701196] (-) TimerEvent: {}
+[0.801583] (-) TimerEvent: {}
+[0.901882] (-) TimerEvent: {}
+[1.002195] (-) TimerEvent: {}
+[1.102453] (-) TimerEvent: {}
+[1.153007] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PurePursuit::odom_sub_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.153300] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:102:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.153406] (convoy_ros) StderrLine: {'line': b'  102 |         for(int i=0; \x1b[01;35m\x1b[Ki < waypoint_x.size()\x1b[m\x1b[K; i++){\n'}
+[1.153547] (convoy_ros) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.153678] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:103:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KPurePursuit::dist(__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.153744] (convoy_ros) StderrLine: {'line': b'  103 |           if(dist(waypoint_x[i] - odom_msg->pose.pose.position.x\x1b[01;31m\x1b[K)\x1b[m\x1b[K, (waypoint_y[i] - odom_msg->pose.pose.position.y) < closest_dist ){\n'}
+[1.153808] (convoy_ros) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.153869] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:86:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdouble PurePursuit::dist(double, double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.153934] (convoy_ros) StderrLine: {'line': b'   86 |     double \x1b[01;36m\x1b[Kdist\x1b[m\x1b[K(double x, double y)\n'}
+[1.153995] (convoy_ros) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.154056] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:86:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[1.202554] (-) TimerEvent: {}
+[1.302922] (-) TimerEvent: {}
+[1.403263] (-) TimerEvent: {}
+[1.503621] (-) TimerEvent: {}
+[1.603977] (-) TimerEvent: {}
+[1.704355] (-) TimerEvent: {}
+[1.804723] (-) TimerEvent: {}
+[1.905071] (-) TimerEvent: {}
+[2.005444] (-) TimerEvent: {}
+[2.105806] (-) TimerEvent: {}
+[2.206140] (-) TimerEvent: {}
+[2.306566] (-) TimerEvent: {}
+[2.406930] (-) TimerEvent: {}
+[2.428009] (convoy_ros) StderrLine: {'line': b'make[2]: *** [CMakeFiles/pure_pursuit.dir/build.make:63: CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o] Error 1\n'}
+[2.428540] (convoy_ros) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pure_pursuit.dir/all] Error 2\n'}
+[2.428697] (convoy_ros) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.429988] (convoy_ros) CommandEnded: {'returncode': 2}
+[2.464700] (convoy_ros) JobEnded: {'identifier': 'convoy_ros', 'rc': 2}
+[2.475392] (-) EventReactorShutdown: {}

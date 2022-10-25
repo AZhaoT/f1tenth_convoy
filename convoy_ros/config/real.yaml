@@ -1,0 +1,19 @@
+/**:
+  ros__parameters:
+    veh_ns: ""
+    drive_topic: "ack_cmd"
+    joy_topic: "joy"
+    odom_topic: "odom"
+    scan_topic: "scan"
+
+safety:
+  ros__parameters:
+    ttc_thresh: 0.5
+    brake_topic: "brake"
+    brake_bool_topic: "brake_bool"
+
+wall_follow:
+  ros__parameters:
+    kp: 14.0
+    ki: 0.0
+    kd: 0.09

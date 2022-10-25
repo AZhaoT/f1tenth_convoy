@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.000229] (convoy_ros) JobQueued: {'identifier': 'convoy_ros', 'dependencies': OrderedDict()}
+[0.000304] (convoy_ros) JobStarted: {'identifier': 'convoy_ros'}
+[0.009424] (convoy_ros) JobProgress: {'identifier': 'convoy_ros', 'progress': 'cmake'}
+[0.010140] (convoy_ros) JobProgress: {'identifier': 'convoy_ros', 'progress': 'build'}
+[0.011034] (convoy_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/sim_ws/src/convoy_ros/build/convoy_ros', '--', '-j12', '-l12'], 'cwd': '/sim_ws/src/convoy_ros/build/convoy_ros', 'env': OrderedDict([('TMUX', '/tmp//tmux-0/default,12,1'), ('HOSTNAME', 'c0cd41242bff'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/sim_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.dockersuqcfag5.xauth'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/sim_ws/install/f1tenth_gym_ros:/sim_ws/install/convoy_ros_interfaces:/sim_ws/install/convoy_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('PWD', '/sim_ws/src/convoy_ros/build/convoy_ros'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/sim_ws/install/convoy_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('TMUX_PANE', '%6'), ('CMAKE_PREFIX_PATH', '/sim_ws/install/convoy_ros_interfaces:/sim_ws/install/convoy_ros:/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[0.043558] (convoy_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pure_pursuit\x1b[0m\n'}
+[0.059695] (convoy_ros) StdoutLine: {'line': b'[ 81%] Built target gap_follow_node\n'}
+[0.059906] (convoy_ros) StdoutLine: {'line': b'[ 81%] Built target wall_follow_node\n'}
+[0.060012] (convoy_ros) StdoutLine: {'line': b'[ 81%] Built target safety_node\n'}
+[0.068165] (convoy_ros) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o\x1b[0m\n'}
+[0.098577] (-) TimerEvent: {}
+[0.198854] (-) TimerEvent: {}
+[0.299185] (-) TimerEvent: {}
+[0.399525] (-) TimerEvent: {}
+[0.499817] (-) TimerEvent: {}
+[0.600103] (-) TimerEvent: {}
+[0.700399] (-) TimerEvent: {}
+[0.800703] (-) TimerEvent: {}
+[0.901010] (-) TimerEvent: {}
+[1.001296] (-) TimerEvent: {}
+[1.101572] (-) TimerEvent: {}
+[1.178007] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPurePursuit::PurePursuit()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.178370] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:35:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisualization\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.178538] (convoy_ros) StderrLine: {'line': b'   35 |     publisher_rviz = this->create_publisher<\x1b[01;31m\x1b[Kvisualization\x1b[m\x1b[K::msg::Marker>("rviz_markers", 10);\n'}
+[1.178714] (convoy_ros) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.178783] (convoy_ros) StderrLine: {'line': b'      |                                             \x1b[32m\x1b[Kvisualization_msgs\x1b[m\x1b[K\n'}
+[1.178852] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:35:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[1.178982] (convoy_ros) StderrLine: {'line': b'   35 |     publisher_rviz = this->\x1b[01;31m\x1b[Kcreate_publisher<visualization::msg::Marker>\x1b[m\x1b[K("rviz_markers", 10);\n'}
+[1.179060] (convoy_ros) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.179147] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:35:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KPurePursuit::create_publisher<<expression error> >(const char [13], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.179268] (convoy_ros) StderrLine: {'line': b'   35 |     publisher_rviz = this->create_publisher<visualization::msg::Marker>("rviz_markers", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.179372] (convoy_ros) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.179458] (convoy_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.179540] (convoy_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.179637] (convoy_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.179741] (convoy_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:15\x1b[m\x1b[K:\n'}
+[1.179831] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.179918] (convoy_ros) StderrLine: {'line': b'  184 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[1.179986] (convoy_ros) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.180050] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.180127] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:35:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.180214] (convoy_ros) StderrLine: {'line': b'   35 |     publisher_rviz = this->create_publisher<visualization::msg::Marker>("rviz_markers", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.180276] (convoy_ros) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.180764] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:41:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmarker\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.180933] (convoy_ros) StderrLine: {'line': b'   41 |     \x1b[01;31m\x1b[Kmarker\x1b[m\x1b[K.header.frame_id = "map";\n'}
+[1.181001] (convoy_ros) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.181065] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:42:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.181130] (convoy_ros) StderrLine: {'line': b'   42 |     marker.header.stamp = \x1b[01;31m\x1b[Kros\x1b[m\x1b[K::Time();\n'}
+[1.181229] (convoy_ros) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.181292] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:44:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::Marker\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.181386] (convoy_ros) StderrLine: {'line': b'   44 |     marker.type = visualization_msgs::\x1b[01;31m\x1b[KMarker\x1b[m\x1b[K::POINTS;\n'}
+[1.181574] (convoy_ros) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.181652] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:45:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::Marker\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.181720] (convoy_ros) StderrLine: {'line': b'   45 |     marker.action = visualization_msgs::\x1b[01;31m\x1b[KMarker\x1b[m\x1b[K::ADD;\n'}
+[1.181785] (convoy_ros) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.181846] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:59:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPoint\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Point\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.181915] (convoy_ros) StderrLine: {'line': b'   59 |     geometry_msgs::\x1b[01;31m\x1b[KPoint\x1b[m\x1b[K points;\n'}
+[1.181975] (convoy_ros) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.182041] (convoy_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/point.hpp:7\x1b[m\x1b[K,\n'}
+[1.182103] (convoy_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:13\x1b[m\x1b[K:\n'}
+[1.182164] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/detail/point__struct.hpp:149:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Point\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.182225] (convoy_ros) StderrLine: {'line': b'  149 | using \x1b[01;36m\x1b[KPoint\x1b[m\x1b[K =\n'}
+[1.182286] (convoy_ros) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.182525] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:62:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kxes\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.182615] (convoy_ros) StderrLine: {'line': b'   62 |         \x1b[01;31m\x1b[Kxes\x1b[m\x1b[K.push_back(x);\n'}
+[1.182693] (convoy_ros) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.183075] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:63:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kyes\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.183162] (convoy_ros) StderrLine: {'line': b'   63 |         \x1b[01;31m\x1b[Kyes\x1b[m\x1b[K.push_back(y);\n'}
+[1.183227] (convoy_ros) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.184019] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:64:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kheadings\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kheading\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.184127] (convoy_ros) StderrLine: {'line': b'   64 |         \x1b[01;31m\x1b[Kheadings\x1b[m\x1b[K.push_back(heading);\n'}
+[1.184219] (convoy_ros) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.184307] (convoy_ros) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kheading\x1b[m\x1b[K\n'}
+[1.184805] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:65:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpoints\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kprintf\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.184916] (convoy_ros) StderrLine: {'line': b'   65 |         \x1b[01;31m\x1b[Kpoints\x1b[m\x1b[K.x = x;\n'}
+[1.185018] (convoy_ros) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.185115] (convoy_ros) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kprintf\x1b[m\x1b[K\n'}
+[1.191708] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PurePursuit::scan_sub_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.191834] (convoy_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:74:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kscan_msg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.191904] (convoy_ros) StderrLine: {'line': b'   74 |   void scan_sub_callback(\x1b[01;35m\x1b[Kconst sensor_msgs::msg::LaserScan::SharedPtr scan_msg\x1b[m\x1b[K)\n'}
+[1.191972] (convoy_ros) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[1.201662] (-) TimerEvent: {}
+[1.302016] (-) TimerEvent: {}
+[1.402323] (-) TimerEvent: {}
+[1.502685] (-) TimerEvent: {}
+[1.603039] (-) TimerEvent: {}
+[1.703369] (-) TimerEvent: {}
+[1.803765] (-) TimerEvent: {}
+[1.904108] (-) TimerEvent: {}
+[2.004455] (-) TimerEvent: {}
+[2.104819] (-) TimerEvent: {}
+[2.205162] (-) TimerEvent: {}
+[2.305470] (-) TimerEvent: {}
+[2.327539] (convoy_ros) StderrLine: {'line': b'make[2]: *** [CMakeFiles/pure_pursuit.dir/build.make:63: CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o] Error 1\n'}
+[2.327880] (convoy_ros) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pure_pursuit.dir/all] Error 2\n'}
+[2.328064] (convoy_ros) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.329386] (convoy_ros) CommandEnded: {'returncode': 2}
+[2.366223] (convoy_ros) JobEnded: {'identifier': 'convoy_ros', 'rc': 2}
+[2.376862] (-) EventReactorShutdown: {}

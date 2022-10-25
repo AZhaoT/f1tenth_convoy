@@ -1,0 +1,13 @@
+/sim_ws/src/convoy_ros/build/convoy_ros/CMakeFiles/install/strip.dir
+/sim_ws/src/convoy_ros/build/convoy_ros/CMakeFiles/install.dir
+/sim_ws/src/convoy_ros/build/convoy_ros/CMakeFiles/list_install_components.dir
+/sim_ws/src/convoy_ros/build/convoy_ros/CMakeFiles/rebuild_cache.dir
+/sim_ws/src/convoy_ros/build/convoy_ros/CMakeFiles/edit_cache.dir
+/sim_ws/src/convoy_ros/build/convoy_ros/CMakeFiles/test.dir
+/sim_ws/src/convoy_ros/build/convoy_ros/CMakeFiles/pure_pursuit.dir
+/sim_ws/src/convoy_ros/build/convoy_ros/CMakeFiles/gap_follow_node.dir
+/sim_ws/src/convoy_ros/build/convoy_ros/CMakeFiles/install/local.dir
+/sim_ws/src/convoy_ros/build/convoy_ros/CMakeFiles/wall_follow_node.dir
+/sim_ws/src/convoy_ros/build/convoy_ros/CMakeFiles/safety_node.dir
+/sim_ws/src/convoy_ros/build/convoy_ros/CMakeFiles/convoy_ros_uninstall.dir
+/sim_ws/src/convoy_ros/build/convoy_ros/CMakeFiles/uninstall.dir

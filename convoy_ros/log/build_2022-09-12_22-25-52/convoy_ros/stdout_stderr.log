@@ -1,0 +1,90 @@
+[35m[1mScanning dependencies of target pure_pursuit[0m
+[ 72%] Built target wall_follow_node
+[ 81%] Built target gap_follow_node
+[ 81%] Built target safety_node
+[ 90%] [32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o[0m
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:[m[K In constructor ‘[01m[KPurePursuit::PurePursuit()[m[K’:
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:37:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kinit_waypoint_marker[m[K’ was not declared in this scope
+   37 |     [01;31m[Kinit_waypoint_marker[m[K(marker);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:[m[K In member function ‘[01m[Kvoid PurePursuit::odom_sub_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:54:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_index_finder[m[K’ was not declared in this scope
+   54 |         goal_index = [01;31m[Kgoal_index_finder[m[K();
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:55:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kdist[m[K’ was not declared in this scope
+   55 |         goal_dist = [01;31m[Kdist[m[K(waypoint_x[goal_index], waypoint_y[goal_index], x_curr, y_curr);
+      |                     [01;31m[K^~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:60:42:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+   60 |         double curvature = get_curvature([01;31m[Kconst[m[K nav_msgs::msg::Odometry::SharedPtr odom_msg, waypoint_x[goal_index], waypoint_y[goal_index], x_curr, y_curr);
+      |                                          [01;31m[K^~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:60:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_curvature[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurvature[m[K’?
+   60 |         double curvature = [01;31m[Kget_curvature[m[K(const nav_msgs::msg::Odometry::SharedPtr odom_msg, waypoint_x[goal_index], waypoint_y[goal_index], x_curr, y_curr);
+      |                            [01;31m[K^~~~~~~~~~~~~[m[K
+      |                            [32m[Kcurvature[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:61:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_marker[m[K’ was not declared in this scope
+   61 |         [01;31m[Kpublish_marker[m[K(marker);
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:62:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_drive[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_drive[m[K’?
+   62 |         [01;31m[Kpublish_drive[m[K(curvature);
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Kpublisher_drive[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:[m[K At global scope:
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:70:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid PurePursuit::init_waypoint_marker(visualization_msgs::msg::Marker)[m[K’
+   70 | void [01;31m[KPurePursuit[m[K::init_waypoint_marker(const visualization_msgs::msg::Marker marker)
+      |      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:70:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid PurePursuit::init_waypoint_marker(visualization_msgs::msg::Marker)[m[K’
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PurePursuit[m[K’ defined here
+   22 | class [01;36m[KPurePursuit[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:110:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble PurePursuit::dist(double, double, double, double)[m[K’
+  110 | double [01;31m[KPurePursuit[m[K::dist(double x0, double y0, double x1, double y1)
+      |        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:110:8:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kdouble PurePursuit::dist(double, double, double, double)[m[K’
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PurePursuit[m[K’ defined here
+   22 | class [01;36m[KPurePursuit[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:116:5:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint PurePursuit::goal_index_finder()[m[K’
+  116 | int [01;31m[KPurePursuit[m[K::goal_index_finder()
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:116:5:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kint PurePursuit::goal_index_finder()[m[K’
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PurePursuit[m[K’ defined here
+   22 | class [01;36m[KPurePursuit[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:144:5:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint PurePursuit::closest_waypoint_finder()[m[K’
+  144 | int [01;31m[KPurePursuit[m[K::closest_waypoint_finder()
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:144:5:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kint PurePursuit::closest_waypoint_finder()[m[K’
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PurePursuit[m[K’ defined here
+   22 | class [01;36m[KPurePursuit[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:160:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble PurePursuit::get_yaw(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’
+  160 | double [01;31m[KPurePursuit[m[K::get_yaw(const nav_msgs::msg::Odometry::SharedPtr msg){
+      |        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:160:8:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kdouble PurePursuit::get_yaw(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PurePursuit[m[K’ defined here
+   22 | class [01;36m[KPurePursuit[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:166:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble PurePursuit::get_curvature(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’
+  166 | double [01;31m[KPurePursuit[m[K::get_curvature(const nav_msgs::msg::Odometry::SharedPtr msg)
+      |        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:166:8:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kdouble PurePursuit::get_curvature(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PurePursuit[m[K’ defined here
+   22 | class [01;36m[KPurePursuit[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:196:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid PurePursuit::publish_marker(visualization_msgs::msg::Marker)[m[K’
+  196 | void [01;31m[KPurePursuit[m[K::publish_marker(const visualization_msgs::msg::Marker marker)
+      |      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:196:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid PurePursuit::publish_marker(visualization_msgs::msg::Marker)[m[K’
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PurePursuit[m[K’ defined here
+   22 | class [01;36m[KPurePursuit[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:204:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid PurePursuit::publish_drive(double)[m[K’
+  204 | void [01;31m[KPurePursuit[m[K::publish_drive(double curvature)
+      |      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:204:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid PurePursuit::publish_drive(double)[m[K’
+[01m[K/sim_ws/src/convoy_ros/src/pure_pursuit.cpp:22:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass PurePursuit[m[K’ defined here
+   22 | class [01;36m[KPurePursuit[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pure_pursuit.dir/build.make:63: CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pure_pursuit.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
